@@ -1,0 +1,268 @@
+/* Bootstrap */
+.carousel-control-prev {
+    width: 40px;
+    height: 40px;
+    background-color: #000;;
+    border-radius: 50%;
+    left: 5%;
+    top: calc(50% - 25px);
+}
+.carousel-control-next {
+    width: 40px;
+    height: 40px;
+    background-color: #000;;
+    border-radius: 50%;
+    right: 5%;
+    top: calc(50% - 25px);
+}
+
+/* -------------------- */
+/* General */
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+
+    /* Flex */
+    display: flex;
+    flex-flow: row wrap;
+}
+
+body {
+    background-color: rgba(234, 105, 39, 1);
+}
+
+/* Header */
+header {
+    /* background-color: rgba(201, 23, 23, 0.446); */
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-flow: row wrap;
+}
+
+header .logo {
+    
+    font-size: 20px;
+    width: 17%;
+    font-size: 22px;
+
+    /* Flexc */
+    display: flex;
+    align-items: center;
+    
+    line-height: .8;
+}
+header .logo a {
+    color: rgb(255, 111, 0);
+}
+
+header .logo a:hover {
+    text-decoration: none;
+}
+
+header nav {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    background-color: #fff;
+    color: rgb(255, 111, 0);
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    font-weight: bold;
+    /* Flex */
+    flex-grow: 1;
+}
+
+.prin,
+header nav a:hover {
+    /* background-color: rgba(202, 133, 5, 0.898); */
+    
+    position: relative;
+    outline: 1px solid black;
+    background-color: rgba(234, 105, 39, 1);
+    color: #fff;
+    text-decoration: none;
+    transition: all 300ms;
+    
+}
+
+.menu {
+    display: none;
+}
+
+.menu:hover {
+    display: block;
+}
+/* Articulos */
+
+
+.articulos {
+    width: 95%;
+    margin: 10px auto;
+    padding-bottom: 30px;
+    background-color: rgba(234, 105, 39, 1);
+    /* Flex */
+    /* display: flex;
+    flex-flow: row wrap; */
+}
+.card {
+    /* float: left; */
+    /* flex: 1; */
+    background-color: rgba(234, 105, 39, 1);
+}
+
+/* Tarjetas */
+
+.card img {
+    width: 200px;
+    display: block;
+    margin: 5px auto;
+}
+
+/* .card h5{
+    text-align: center;
+} */
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 200px;
+    /* flex */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .lista a i{
+    color: rgba(234, 105, 39, 1);
+}
+/* ICONOS */
+.bi-twitter:hover{
+    color: rgb(18, 182, 232);
+}
+.bi-facebook:hover{
+    color: rgb(9, 47, 199);
+}
+.bi-instagram:hover{
+    
+    /* background: #d6249f; */
+    color: hsla(295, 50%, 44%, 0.945);
+    
+}
+.bi-youtube:hover{
+    color: red;
+}
+
+/* ------ */
+
+/* ========== */
+/* PAGINA DOS */
+/* ========== */
+.titulo {
+    padding: 15px;
+    background-color: rgba(128, 0, 0, 0.734);
+    width: 100%;
+}
+
+.pag2 {
+    background-color: #fff;
+}
+
+
+
+.pagina2 .carta-icono{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 40px auto;
+}
+.pagina2 .carta-icono i {
+    font-size: 45px;
+    /* margin: auto; */
+}
+
+.cartablanca  .carta-icono{
+    background-color: rgb(255, 111, 0);
+}
+
+/* .cartablanca {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;  
+    margin: 40px auto;
+
+    /* background-color: rgba(234, 105, 39, 1); */
+    /* color: rgba(234, 105, 39, 1); */
+/* }
+
+.cartablanca i {
+    
+} */
+
+/* ========= */
+/* Pagina 3 ADOPTA */
+/* ========= */
+
+.titulo-adopta {
+    width: 100%;
+    background-color: rgb(102, 98, 98);
+    padding: 15px;
+    color: #fff;
+}
+
+.mensaje-adopta {
+    background-image: url('../images/Fondos/PerroFondo.jpg');
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+
+.mensaje-adopta .contenido-mensaje-adopta {
+    width: 60%;
+}
+.mensaje-adopta .contenido-mensaje-adopta ul li {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.pagina3 section {
+    width: 100%;
+    padding-top: 30px;
+    border-top: 1px solid black;
+    /* Flex */
+    display: flex;
+
+}
+
+.pagina3 section article {
+    flex: 1;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+
+.pagina3 section article .p3-foto {
+    height: 60px;
+    width: 80px;
+    background-color: red;
+}
+
+.p3-carta {
+    background-color: #fff;
+}
